@@ -1,0 +1,76 @@
+body{
+    background-image: url("img/todobg.jpg");
+}
+div.mhd{
+    font-size: 70px;
+    font-weight: 700;
+}
+.txtf{
+    padding: 10px;
+    border: 0px;
+}
+.addbtn{
+    -webkit-box-shadow: 4px 4px 18px 0px rgba(37, 50, 50, 0.75);
+    -moz-box-shadow:    4px 4px 18px 0px rgba(37, 50, 50, 0.75);
+    box-shadow:         4px 4px 18px 0px rgba(37, 50, 50, 0.75);
+    background-color: white;
+    border: 0px;
+    padding: 10px;
+}
+.addbtn:hover{
+    background-color: rgb(60, 148, 60);
+    color: white;
+}
+
+.delete{
+    -webkit-box-shadow: 4px 4px 18px 0px rgba(37, 50, 50, 0.75);
+-moz-box-shadow:    4px 4px 18px 0px rgba(37, 50, 50, 0.75);
+box-shadow:         4px 4px 18px 0px rgba(37, 50, 50, 0.75);
+    background-color: white;
+    border: 0px;
+    padding: 10px;
+}
+.delete:hover{
+    background-color: red;
+    color: white;
+}
+div{
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+ul{
+    list-style-type: none;
+    background-color: white;
+    color: black;
+} 
+.lines{
+    padding: 5px;
+    font-size:80 ;
+    font-weight: 700;
+}
+
+
+.ebtn{
+    transform: translate(300%, -10%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    background-color: aqua;
+    border: 0px;
+}
+.dbtn{
+    transform: translate(450%, -10%);
+    opacity: 0;
+    color: white;
+    transition: opacity 0.3s ease;
+    background-color: red;
+    border: 0px;
+}
+li:hover .dbtn{
+    opacity: 1;
+  }
+li:hover .ebtn {
+    opacity: 1;
+  }
+
